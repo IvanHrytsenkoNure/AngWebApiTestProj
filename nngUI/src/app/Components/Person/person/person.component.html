@@ -1,0 +1,10 @@
+
+<div class="personsOutput">
+    <div class="person" *ngFor="let person of personsAsync$ | async">
+       {{person.id}} {{person.name}}, &nbsp; {{person.surname}}
+       <button (click) = "onDeleteClick(person)"i18n>Delete</button>
+       <button (click)="onEditClick(person)" i18n>Edit</button>
+    </div>
+    <button (click)="onAddClick()" i18n>Add</button>
+
+</div>

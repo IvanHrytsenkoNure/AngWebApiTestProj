@@ -1,0 +1,22 @@
+{
+    "HEADER":"Welcome",
+    "SELECT":
+    {
+        "LANG":
+        {
+            "RU": "Russian",
+            "EN": "English"
+        }
+        
+    },
+
+    "BUTTON":
+    {
+        "ADD":"Add",
+        "EDIT":"Edit",
+        "DELETE":"Delete",
+        "CLOSE":"Close"
+    }
+    
+
+}
